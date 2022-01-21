@@ -1,5 +1,5 @@
 #!/bin/bash
-PUBLIC="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDJgCDfdnHXNCXhsVrI0mjUDStiSR73A5BZpM+whURY9D+$
+PUBLIC="ssh-rsa ..."
 echo $PUBLIC
 echo $PUBLIC >> test
 scp test lg:~/.ssh/test1
